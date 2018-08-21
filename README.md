@@ -1,4 +1,5 @@
 # XCLabelListView
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/fanxiaocong/XCLabelListView.svg?style=flat)](https://travis-ci.org/fanxiaocong/XCLabelListView)
 [![Version](https://img.shields.io/cocoapods/v/XCLabelListView.svg?style=flat)](https://cocoapods.org/pods/XCLabelListView)
@@ -27,3 +28,6 @@ fanxiaocong, 1016697223@qq.com
 ## License
 
 XCLabelListView is available under the MIT license. See the LICENSE file for more info.
+=======
+XCLabelListView，列表标签视图
+>>>>>>> 2aae54dd615929f2f301567066a8191f1a867256
