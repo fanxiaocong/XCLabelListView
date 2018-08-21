@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XCLabelListView_Example' do
+  pod 'XCLabelListView', :path => '../'
+
+  target 'XCLabelListView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
