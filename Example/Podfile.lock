@@ -1,0 +1,16 @@
+PODS:
+  - XCLabelListView (0.0.1)
+
+DEPENDENCIES:
+  - XCLabelListView (from `../`)
+
+EXTERNAL SOURCES:
+  XCLabelListView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XCLabelListView: 21c1c2e7756660c2a585fcf28c215ebbeaa33f3f
+
+PODFILE CHECKSUM: 2f8b8691b41170f51e932db14c9d783897311435
+
+COCOAPODS: 1.5.3

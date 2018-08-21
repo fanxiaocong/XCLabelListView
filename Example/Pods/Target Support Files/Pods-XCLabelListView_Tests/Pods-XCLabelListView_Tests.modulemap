@@ -1,0 +1,6 @@
+framework module Pods_XCLabelListView_Tests {
+  umbrella header "Pods-XCLabelListView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

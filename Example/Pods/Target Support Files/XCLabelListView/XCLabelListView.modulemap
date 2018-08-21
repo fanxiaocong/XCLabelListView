@@ -1,0 +1,6 @@
+framework module XCLabelListView {
+  umbrella header "XCLabelListView-umbrella.h"
+
+  export *
+  module * { export * }
+}

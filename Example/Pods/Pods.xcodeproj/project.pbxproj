@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0854D67A011CE93D86B7791AB2AC0BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0A46A75801F6DAE133AB1FA130B5C369 /* XCLabelListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 034BFB85ED52F2F6CD114B179215DECC /* XCLabelListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DAA78E1749767F2293207A4C65A2BC1 /* XCLabelListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B25B32CC61CDA628F9E3EDB3031BEE66 /* XCLabelListView-dummy.m */; };
+		1F7BC46E201DBDE0BA85AB853E669ADA /* XCLabelListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E6A6C7170755EC6A2696F4C7FD5132 /* XCLabelListModel.m */; };
+		27036D273BB0817510184297FC8A55B0 /* Pods-XCLabelListView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E972FD659A75AA4684572FA1BA6AF1D0 /* Pods-XCLabelListView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3030FE543F58C340AC51C40D283A1BA6 /* Pods-XCLabelListView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 378131397BCF975604B43D6F86312347 /* Pods-XCLabelListView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36F709D19427E75FD6EAF3B4776FA411 /* XCLabelListCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 163C35AE33EBF8A6C02037CC3DD42F2C /* XCLabelListCell.xib */; };
+		66F0A311C0E3FB24E812CE456F026150 /* XCLabelListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E8E7CE528F7C650C63A736C5D151DB /* XCLabelListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6703BAB650CAFE58E5951959D88D08 /* XCLabelListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 490059CE361404828F111EC69A77DF32 /* XCLabelListCell.m */; };
+		77EE797F3ABF9B1B8CFD9C2C44C3FD3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		89E689EDEBDB2C8179C17064AF8F58BD /* XCLabelListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 854F3D62CD4764B496F4E0C01DD3088D /* XCLabelListView.m */; };
+		9B6C210EEF78F1243A6E1AF4F26E2A40 /* XCLabelListLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B28111D5778E2E46EB8C83A5AD198D /* XCLabelListLayout.m */; };
+		B8BB18BB586D3BA10E8C21BC55559490 /* XCLabelListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 858E7C5C28FF58EEA5DFAAD4BF1B4986 /* XCLabelListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D35EF3F19A857C6AB63FFED0E87FB7C2 /* XCLabelListLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A70CF8E698ABCAAFA3AFDD3F17B0F1 /* XCLabelListLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6A0D5E027774A1B4F8D3140E802CC88 /* Pods-XCLabelListView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1016392EF9F2AB72D54AD50DF824412B /* Pods-XCLabelListView_Tests-dummy.m */; };
+		F3B4087FD940DBB09165B7FAFA9D82EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FC3242331F8FD8555702A139B8C909D9 /* XCLabelListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374DF74CE9DAAC91D3D7F7DF5C86469 /* XCLabelListCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE481178D14F511C49D8BF02F3E494EF /* Pods-XCLabelListView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA58BD93ECC74E77181C281EC2B0F8C5 /* Pods-XCLabelListView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06EDF20B1BE86BDBA9A034789AA71E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BEF4416F797E9017A07C68953DC7FC3;
+			remoteInfo = XCLabelListView;
+		};
+		5F3D845B4A033987A7DBBC39BA871F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CBDA1B9AF05800C7410423097DE2203;
+			remoteInfo = "Pods-XCLabelListView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A70CF8E698ABCAAFA3AFDD3F17B0F1 /* XCLabelListLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCLabelListLayout.h; path = XCLabelListView/Classes/XCLabelListLayout.h; sourceTree = "<group>"; };
+		034BFB85ED52F2F6CD114B179215DECC /* XCLabelListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCLabelListView-umbrella.h"; sourceTree = "<group>"; };
+		09E8E7CE528F7C650C63A736C5D151DB /* XCLabelListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCLabelListView.h; path = XCLabelListView/Classes/XCLabelListView.h; sourceTree = "<group>"; };
+		1016392EF9F2AB72D54AD50DF824412B /* Pods-XCLabelListView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCLabelListView_Tests-dummy.m"; sourceTree = "<group>"; };
+		1374DF74CE9DAAC91D3D7F7DF5C86469 /* XCLabelListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCLabelListCell.h; path = XCLabelListView/Classes/XCLabelListCell.h; sourceTree = "<group>"; };
+		163C35AE33EBF8A6C02037CC3DD42F2C /* XCLabelListCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = XCLabelListCell.xib; path = XCLabelListView/Classes/XCLabelListCell.xib; sourceTree = "<group>"; };
+		255F677BC8E03638F573A3565D741DC6 /* Pods-XCLabelListView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCLabelListView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27D95962D449BF2E99CEE08197A7FFFD /* Pods-XCLabelListView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCLabelListView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2B467C12F503CEA7F665CEEDA2251122 /* Pods_XCLabelListView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCLabelListView_Tests.framework; path = "Pods-XCLabelListView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344525D812C20B6A7DD42945338C5DA5 /* Pods-XCLabelListView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCLabelListView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		378131397BCF975604B43D6F86312347 /* Pods-XCLabelListView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCLabelListView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3A449041755187D6DA8728565DF13439 /* Pods-XCLabelListView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCLabelListView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3C53BAECBC8904EE36E9D305D835BDDD /* Pods-XCLabelListView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCLabelListView_Example-resources.sh"; sourceTree = "<group>"; };
+		3D16DD96BB22C0EB4609C5B9EFACDBB7 /* Pods-XCLabelListView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCLabelListView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3EF4C53C5FD18E29EDD3762C6F33C223 /* Pods-XCLabelListView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCLabelListView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4149FAAD219C0FD7723C1F9A656D8244 /* XCLabelListView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XCLabelListView.modulemap; sourceTree = "<group>"; };
+		490059CE361404828F111EC69A77DF32 /* XCLabelListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCLabelListCell.m; path = XCLabelListView/Classes/XCLabelListCell.m; sourceTree = "<group>"; };
+		498A0A0C9CAF29ED85FE3D93F1177C59 /* Pods-XCLabelListView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCLabelListView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66605139DD40C39F3E64002E98DBFDE2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		68A29394441F9BD0436E0BB1469FAE11 /* Pods-XCLabelListView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCLabelListView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		78E6A6C7170755EC6A2696F4C7FD5132 /* XCLabelListModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCLabelListModel.m; path = XCLabelListView/Classes/XCLabelListModel.m; sourceTree = "<group>"; };
+		854F3D62CD4764B496F4E0C01DD3088D /* XCLabelListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCLabelListView.m; path = XCLabelListView/Classes/XCLabelListView.m; sourceTree = "<group>"; };
+		858E7C5C28FF58EEA5DFAAD4BF1B4986 /* XCLabelListModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCLabelListModel.h; path = XCLabelListView/Classes/XCLabelListModel.h; sourceTree = "<group>"; };
+		8971C93233EBE6FA47B123E8273A170F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93024D704AC271CA4F82BD581FAAE1FD /* XCLabelListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCLabelListView-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E36AE1DBBB320EE3A1F18A084A6E236 /* Pods_XCLabelListView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCLabelListView_Example.framework; path = "Pods-XCLabelListView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECD231BE0D976A4B2A6FE4B81B47950 /* XCLabelListView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XCLabelListView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF83090B775A4332CF1F6FAE80B631C4 /* Pods-XCLabelListView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCLabelListView_Tests-resources.sh"; sourceTree = "<group>"; };
+		B25B32CC61CDA628F9E3EDB3031BEE66 /* XCLabelListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCLabelListView-dummy.m"; sourceTree = "<group>"; };
+		C9B28111D5778E2E46EB8C83A5AD198D /* XCLabelListLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCLabelListLayout.m; path = XCLabelListView/Classes/XCLabelListLayout.m; sourceTree = "<group>"; };
+		CFF34ED2505D37D819BA28D0D62F22E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F85D9A6452018CD948F2D737854BD3 /* Pods-XCLabelListView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCLabelListView_Example.modulemap"; sourceTree = "<group>"; };
+		D2832EE2C4D112C5497DD921E0124B44 /* Pods-XCLabelListView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCLabelListView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E309496FC5BED8E69158DCB5C04AC3F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E972FD659A75AA4684572FA1BA6AF1D0 /* Pods-XCLabelListView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCLabelListView_Example-umbrella.h"; sourceTree = "<group>"; };
+		EF002EAE22EE4B3FD70CCBEC0F2F2DC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EFBADFFCB2D658DB6FFE06F81DCDE903 /* Pods-XCLabelListView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCLabelListView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F3178AC899BA4BF162D934EAE1FF48D5 /* XCLabelListView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCLabelListView.xcconfig; sourceTree = "<group>"; };
+		F5B963681A6981F31A37F66E80F2F5A8 /* Pods-XCLabelListView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XCLabelListView_Tests.modulemap"; sourceTree = "<group>"; };
+		FA58BD93ECC74E77181C281EC2B0F8C5 /* Pods-XCLabelListView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCLabelListView_Example-dummy.m"; sourceTree = "<group>"; };
+		FBBE55CE4202A7DBAC0B96C11F275E45 /* XCLabelListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCLabelListView.framework; path = XCLabelListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23DEAE4595B5D2C60456282C5D810E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77EE797F3ABF9B1B8CFD9C2C44C3FD3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28D9148A39F8C5E31AA18EEF6B503664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0854D67A011CE93D86B7791AB2AC0BEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC294F25EBBF8AA5752A81C6BA99BCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B4087FD940DBB09165B7FAFA9D82EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00BF2BEFCAFF9E7BC29E98275EF1808C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E36AE1DBBB320EE3A1F18A084A6E236 /* Pods_XCLabelListView_Example.framework */,
+				2B467C12F503CEA7F665CEEDA2251122 /* Pods_XCLabelListView_Tests.framework */,
+				FBBE55CE4202A7DBAC0B96C11F275E45 /* XCLabelListView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D7B2758F05EFE199DBD194A8306040 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0D89E8A28E3EB6CE5A1E946E2D39A26 /* Pods-XCLabelListView_Example */,
+				F4164713CBE7B5BDD209D647B60C2341 /* Pods-XCLabelListView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5A7D8669DEE12B138D5EEE8472FB044B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6112E6521B4316BD1B06FAE0A485368 /* XCLabelListView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CA313DB7DB869970B54434367282A74 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8971C93233EBE6FA47B123E8273A170F /* Info.plist */,
+				4149FAAD219C0FD7723C1F9A656D8244 /* XCLabelListView.modulemap */,
+				F3178AC899BA4BF162D934EAE1FF48D5 /* XCLabelListView.xcconfig */,
+				B25B32CC61CDA628F9E3EDB3031BEE66 /* XCLabelListView-dummy.m */,
+				93024D704AC271CA4F82BD581FAAE1FD /* XCLabelListView-prefix.pch */,
+				034BFB85ED52F2F6CD114B179215DECC /* XCLabelListView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XCLabelListView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5A7D8669DEE12B138D5EEE8472FB044B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				00BF2BEFCAFF9E7BC29E98275EF1808C /* Products */,
+				11D7B2758F05EFE199DBD194A8306040 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0D89E8A28E3EB6CE5A1E946E2D39A26 /* Pods-XCLabelListView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E309496FC5BED8E69158DCB5C04AC3F4 /* Info.plist */,
+				D0F85D9A6452018CD948F2D737854BD3 /* Pods-XCLabelListView_Example.modulemap */,
+				D2832EE2C4D112C5497DD921E0124B44 /* Pods-XCLabelListView_Example-acknowledgements.markdown */,
+				344525D812C20B6A7DD42945338C5DA5 /* Pods-XCLabelListView_Example-acknowledgements.plist */,
+				FA58BD93ECC74E77181C281EC2B0F8C5 /* Pods-XCLabelListView_Example-dummy.m */,
+				3D16DD96BB22C0EB4609C5B9EFACDBB7 /* Pods-XCLabelListView_Example-frameworks.sh */,
+				3C53BAECBC8904EE36E9D305D835BDDD /* Pods-XCLabelListView_Example-resources.sh */,
+				E972FD659A75AA4684572FA1BA6AF1D0 /* Pods-XCLabelListView_Example-umbrella.h */,
+				27D95962D449BF2E99CEE08197A7FFFD /* Pods-XCLabelListView_Example.debug.xcconfig */,
+				498A0A0C9CAF29ED85FE3D93F1177C59 /* Pods-XCLabelListView_Example.release.xcconfig */,
+			);
+			name = "Pods-XCLabelListView_Example";
+			path = "Target Support Files/Pods-XCLabelListView_Example";
+			sourceTree = "<group>";
+		};
+		D73BD23021C5D5FE1B3FBBDC3E0C4ED2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EF002EAE22EE4B3FD70CCBEC0F2F2DC2 /* LICENSE */,
+				66605139DD40C39F3E64002E98DBFDE2 /* README.md */,
+				AECD231BE0D976A4B2A6FE4B81B47950 /* XCLabelListView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F4164713CBE7B5BDD209D647B60C2341 /* Pods-XCLabelListView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF34ED2505D37D819BA28D0D62F22E2 /* Info.plist */,
+				F5B963681A6981F31A37F66E80F2F5A8 /* Pods-XCLabelListView_Tests.modulemap */,
+				255F677BC8E03638F573A3565D741DC6 /* Pods-XCLabelListView_Tests-acknowledgements.markdown */,
+				68A29394441F9BD0436E0BB1469FAE11 /* Pods-XCLabelListView_Tests-acknowledgements.plist */,
+				1016392EF9F2AB72D54AD50DF824412B /* Pods-XCLabelListView_Tests-dummy.m */,
+				3A449041755187D6DA8728565DF13439 /* Pods-XCLabelListView_Tests-frameworks.sh */,
+				AF83090B775A4332CF1F6FAE80B631C4 /* Pods-XCLabelListView_Tests-resources.sh */,
+				378131397BCF975604B43D6F86312347 /* Pods-XCLabelListView_Tests-umbrella.h */,
+				3EF4C53C5FD18E29EDD3762C6F33C223 /* Pods-XCLabelListView_Tests.debug.xcconfig */,
+				EFBADFFCB2D658DB6FFE06F81DCDE903 /* Pods-XCLabelListView_Tests.release.xcconfig */,
+			);
+			name = "Pods-XCLabelListView_Tests";
+			path = "Target Support Files/Pods-XCLabelListView_Tests";
+			sourceTree = "<group>";
+		};
+		F6112E6521B4316BD1B06FAE0A485368 /* XCLabelListView */ = {
+			isa = PBXGroup;
+			children = (
+				1374DF74CE9DAAC91D3D7F7DF5C86469 /* XCLabelListCell.h */,
+				490059CE361404828F111EC69A77DF32 /* XCLabelListCell.m */,
+				163C35AE33EBF8A6C02037CC3DD42F2C /* XCLabelListCell.xib */,
+				01A70CF8E698ABCAAFA3AFDD3F17B0F1 /* XCLabelListLayout.h */,
+				C9B28111D5778E2E46EB8C83A5AD198D /* XCLabelListLayout.m */,
+				858E7C5C28FF58EEA5DFAAD4BF1B4986 /* XCLabelListModel.h */,
+				78E6A6C7170755EC6A2696F4C7FD5132 /* XCLabelListModel.m */,
+				09E8E7CE528F7C650C63A736C5D151DB /* XCLabelListView.h */,
+				854F3D62CD4764B496F4E0C01DD3088D /* XCLabelListView.m */,
+				D73BD23021C5D5FE1B3FBBDC3E0C4ED2 /* Pod */,
+				7CA313DB7DB869970B54434367282A74 /* Support Files */,
+			);
+			name = XCLabelListView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38302C171B60E273B744A1E171D22360 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3242331F8FD8555702A139B8C909D9 /* XCLabelListCell.h in Headers */,
+				D35EF3F19A857C6AB63FFED0E87FB7C2 /* XCLabelListLayout.h in Headers */,
+				B8BB18BB586D3BA10E8C21BC55559490 /* XCLabelListModel.h in Headers */,
+				0A46A75801F6DAE133AB1FA130B5C369 /* XCLabelListView-umbrella.h in Headers */,
+				66F0A311C0E3FB24E812CE456F026150 /* XCLabelListView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6A4C4D0A1819359C0B72BDD512C0C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27036D273BB0817510184297FC8A55B0 /* Pods-XCLabelListView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B0B61524AE666151B6FCC544560480 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3030FE543F58C340AC51C40D283A1BA6 /* Pods-XCLabelListView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15603B669D196B5CACBEA583E6BB911E /* Pods-XCLabelListView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747DA0F9315CB739B5E13389AA326DB7 /* Build configuration list for PBXNativeTarget "Pods-XCLabelListView_Tests" */;
+			buildPhases = (
+				BD6B1363B67CEBA93865BEE8C2E86BA9 /* Sources */,
+				28D9148A39F8C5E31AA18EEF6B503664 /* Frameworks */,
+				76B0B61524AE666151B6FCC544560480 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4A89C937D848EB00A5770C335C917B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-XCLabelListView_Tests";
+			productName = "Pods-XCLabelListView_Tests";
+			productReference = 2B467C12F503CEA7F665CEEDA2251122 /* Pods_XCLabelListView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1CBDA1B9AF05800C7410423097DE2203 /* Pods-XCLabelListView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2429780C8EAEA44D27A2B3CC056A1335 /* Build configuration list for PBXNativeTarget "Pods-XCLabelListView_Example" */;
+			buildPhases = (
+				1E51F2D645B7C4211A0628A64596CD19 /* Sources */,
+				23DEAE4595B5D2C60456282C5D810E09 /* Frameworks */,
+				4B6A4C4D0A1819359C0B72BDD512C0C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166F5679A7FE4499E974F4AA7EECEE98 /* PBXTargetDependency */,
+			);
+			name = "Pods-XCLabelListView_Example";
+			productName = "Pods-XCLabelListView_Example";
+			productReference = 9E36AE1DBBB320EE3A1F18A084A6E236 /* Pods_XCLabelListView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BEF4416F797E9017A07C68953DC7FC3 /* XCLabelListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EBA74537CEEA0B3211578FFA5ACC7C8 /* Build configuration list for PBXNativeTarget "XCLabelListView" */;
+			buildPhases = (
+				3A76639F11376A8305123E55E1D8CE35 /* Sources */,
+				EC294F25EBBF8AA5752A81C6BA99BCCF /* Frameworks */,
+				38302C171B60E273B744A1E171D22360 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCLabelListView;
+			productName = XCLabelListView;
+			productReference = FBBE55CE4202A7DBAC0B96C11F275E45 /* XCLabelListView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 00BF2BEFCAFF9E7BC29E98275EF1808C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CBDA1B9AF05800C7410423097DE2203 /* Pods-XCLabelListView_Example */,
+				15603B669D196B5CACBEA583E6BB911E /* Pods-XCLabelListView_Tests */,
+				7BEF4416F797E9017A07C68953DC7FC3 /* XCLabelListView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E51F2D645B7C4211A0628A64596CD19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE481178D14F511C49D8BF02F3E494EF /* Pods-XCLabelListView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A76639F11376A8305123E55E1D8CE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6703BAB650CAFE58E5951959D88D08 /* XCLabelListCell.m in Sources */,
+				36F709D19427E75FD6EAF3B4776FA411 /* XCLabelListCell.xib in Sources */,
+				9B6C210EEF78F1243A6E1AF4F26E2A40 /* XCLabelListLayout.m in Sources */,
+				1F7BC46E201DBDE0BA85AB853E669ADA /* XCLabelListModel.m in Sources */,
+				0DAA78E1749767F2293207A4C65A2BC1 /* XCLabelListView-dummy.m in Sources */,
+				89E689EDEBDB2C8179C17064AF8F58BD /* XCLabelListView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6B1363B67CEBA93865BEE8C2E86BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A0D5E027774A1B4F8D3140E802CC88 /* Pods-XCLabelListView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166F5679A7FE4499E974F4AA7EECEE98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCLabelListView;
+			target = 7BEF4416F797E9017A07C68953DC7FC3 /* XCLabelListView */;
+			targetProxy = 06EDF20B1BE86BDBA9A034789AA71E3D /* PBXContainerItemProxy */;
+		};
+		B4A89C937D848EB00A5770C335C917B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XCLabelListView_Example";
+			target = 1CBDA1B9AF05800C7410423097DE2203 /* Pods-XCLabelListView_Example */;
+			targetProxy = 5F3D845B4A033987A7DBBC39BA871F1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02110617F7AB800E2C1ECB2903B91276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF4C53C5FD18E29EDD3762C6F33C223 /* Pods-XCLabelListView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCLabelListView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCLabelListView_Tests/Pods-XCLabelListView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0A093BBD6A696EE01889FE4F593E1776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D95962D449BF2E99CEE08197A7FFFD /* Pods-XCLabelListView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCLabelListView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCLabelListView_Example/Pods-XCLabelListView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BF5BAA8D62C5E97DF722E24EC5BCCB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3178AC899BA4BF162D934EAE1FF48D5 /* XCLabelListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCLabelListView/XCLabelListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCLabelListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCLabelListView/XCLabelListView.modulemap";
+				PRODUCT_MODULE_NAME = XCLabelListView;
+				PRODUCT_NAME = XCLabelListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		920CC7561D8F0958137CCE336C8EF9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498A0A0C9CAF29ED85FE3D93F1177C59 /* Pods-XCLabelListView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCLabelListView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCLabelListView_Example/Pods-XCLabelListView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		955ADD857532CBBCB318B4181EBC3784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3178AC899BA4BF162D934EAE1FF48D5 /* XCLabelListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCLabelListView/XCLabelListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCLabelListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCLabelListView/XCLabelListView.modulemap";
+				PRODUCT_MODULE_NAME = XCLabelListView;
+				PRODUCT_NAME = XCLabelListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B3EDDC79757A49DC27BBD59F9BFDCAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBADFFCB2D658DB6FFE06F81DCDE903 /* Pods-XCLabelListView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCLabelListView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCLabelListView_Tests/Pods-XCLabelListView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2429780C8EAEA44D27A2B3CC056A1335 /* Build configuration list for PBXNativeTarget "Pods-XCLabelListView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A093BBD6A696EE01889FE4F593E1776 /* Debug */,
+				920CC7561D8F0958137CCE336C8EF9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EBA74537CEEA0B3211578FFA5ACC7C8 /* Build configuration list for PBXNativeTarget "XCLabelListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955ADD857532CBBCB318B4181EBC3784 /* Debug */,
+				3BF5BAA8D62C5E97DF722E24EC5BCCB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747DA0F9315CB739B5E13389AA326DB7 /* Build configuration list for PBXNativeTarget "Pods-XCLabelListView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02110617F7AB800E2C1ECB2903B91276 /* Debug */,
+				B3EDDC79757A49DC27BBD59F9BFDCAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
