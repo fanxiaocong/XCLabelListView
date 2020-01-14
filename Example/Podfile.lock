@@ -1,5 +1,5 @@
 PODS:
-  - XCLabelListView (0.0.1)
+  - XCLabelListView (0.0.2)
 
 DEPENDENCIES:
   - XCLabelListView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XCLabelListView: 21c1c2e7756660c2a585fcf28c215ebbeaa33f3f
+  XCLabelListView: 65c61db174b3e53ce15c167eaa0ef2f991229b0d
 
 PODFILE CHECKSUM: 2f8b8691b41170f51e932db14c9d783897311435
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5

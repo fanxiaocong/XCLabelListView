@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'XCLabelListView'
-    s.version          = '0.0.1'
+    s.version          = '0.0.2'
     s.summary          = 'XCLabelListView.'
     
     s.description      = <<-DESC
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     s.author           = { 'fanxiaocong' => '1016697223@qq.com' }
     s.source           = { :git => 'https://github.com/fanxiaocong/XCLabelListView.git', :tag => s.version.to_s }
     
-    s.ios.deployment_target = '8.3'
+    s.ios.deployment_target = '9.0'
     
     s.source_files = 'XCLabelListView/Classes/**/*'
     

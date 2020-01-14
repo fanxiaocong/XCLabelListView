@@ -1,6 +1,6 @@
 {
   "name": "XCLabelListView",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "XCLabelListView.",
   "description": "XCLabelListView，列表标签视图",
   "homepage": "https://github.com/fanxiaocong/XCLabelListView",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/fanxiaocong/XCLabelListView.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
-    "ios": "8.3"
+    "ios": "9.0"
   },
   "source_files": "XCLabelListView/Classes/**/*"
 }

@@ -80,7 +80,8 @@ static NSString * const cellIdentifier = @"XCLabelListCell";
     self.rowMargin      = 15;
     self.columnsMargin  = 15;
     self.rowHeight      = 30;
-    self.contentInsetsX = 15;
+    self.itemInsetsX    = 15;
+    self.contentInsets  = UIEdgeInsetsMake(15, 15, 15, 15);
     self.cornerRadius   = self.rowHeight * 0.5;
     self.titleFontSize  = 13;
     
@@ -138,25 +139,29 @@ static NSString * const cellIdentifier = @"XCLabelListCell";
     self.layout.columnsMargin = columnsMargin;
 }
 
-- (void)setContentInsetsX:(CGFloat)contentInsetsX
+- (void)setContentInsets:(UIEdgeInsets)contentInsets
 {
-    _contentInsetsX = contentInsetsX;
+    _contentInsets = contentInsets;
     
-    self.layout.sectionInset = UIEdgeInsetsMake(0, contentInsetsX, 0, contentInsetsX);
+    self.layout.sectionInset = contentInsets;
 }
 
-- (void)setDataArray:(NSArray<NSString *> *)dataArray
+- (void)setScrollEnabled:(BOOL)scrollEnabled
 {
-    _dataArray = dataArray;
+    _scrollEnabled = scrollEnabled;
+    
+    self.collectView.scrollEnabled = scrollEnabled;
+}
+
+- (void)setDataSource:(NSArray<NSString *> *)dataSource
+{
+    _dataSource = dataSource;
     
     NSMutableArray *mArr = [NSMutableArray array];
     
-    for (NSString *title in dataArray)
-    {
+    for (NSString *title in dataSource) {
         XCLabelListModel *model = [XCLabelListModel listModelWithTitle:title];
-        
         model.titleWidth = [title sizeWithAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:self.titleFontSize]}].width;
-        
         [mArr addObject:model];
     }
     
@@ -177,24 +182,18 @@ static NSString * const cellIdentifier = @"XCLabelListCell";
 {
     XCLabelListCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:cellIdentifier forIndexPath:indexPath];
     
-    if (indexPath.item < self.models.count)
-    {
+    if (indexPath.item < self.models.count) {
         XCLabelListModel *model = self.models[indexPath.item];
-        
         cell.titleLB.text = model.title;
-        
         cell.titleLB.textAlignment = NSTextAlignmentCenter;
         cell.titleLB.layer.cornerRadius = self.cornerRadius;
         cell.titleLB.layer.masksToBounds = YES;
         cell.titleLB.font = [UIFont systemFontOfSize:self.titleFontSize];
         
-        if (model.isSelected)
-        {
+        if (model.isSelected) {
             cell.titleLB.textColor = self.selectedTitleColor;
             cell.titleLB.backgroundColor = self.selectedBackgroundColor;
-        }
-        else
-        {
+        } else {
             cell.titleLB.textColor = self.normalTitleColor;
             cell.titleLB.backgroundColor = self.normalBackgroundColor;
         }
@@ -207,20 +206,15 @@ static NSString * const cellIdentifier = @"XCLabelListCell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
-   if (self.models.count > indexPath.item)
-   {
+   if (self.models.count > indexPath.item) {
        XCLabelListModel *model = self.models[indexPath.item];
        
-       if (self.allowsMultipleSelection)
-       {
+       if (self.allowsMultipleSelection) {
            /// 多选
            model.selected = !model.isSelected;
-       }
-       else
-       {
+       } else {
            /// 单选
            [self.models enumerateObjectsUsingBlock:^(XCLabelListModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-               
                obj.selected = (obj == model);
            }];
        }
@@ -228,11 +222,8 @@ static NSString * const cellIdentifier = @"XCLabelListCell";
 
     /// 更新已经选中的数组
     NSMutableArray *mArr = [NSMutableArray array];
-    
     [self.models enumerateObjectsUsingBlock:^(XCLabelListModel * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        
-        if (obj.isSelected)
-        {
+        if (obj.isSelected) {
             [mArr addObject:@(idx)];
         }
     }];
@@ -240,9 +231,8 @@ static NSString * const cellIdentifier = @"XCLabelListCell";
     _selectedIndexs = mArr;
     
     /// 选中的回调
-    if (self.didSelectItemBlock)
-    {
-        self.didSelectItemBlock(self, indexPath.row);
+    if (self.didClickItemCallBack) {
+        self.didClickItemCallBack(self, indexPath.row);
     }
     
     [collectionView reloadData];
@@ -253,15 +243,11 @@ static NSString * const cellIdentifier = @"XCLabelListCell";
 
 - (CGSize)labelListLayout:(XCLabelListLayout *)layout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {    
-    if (self.dataArray.count > indexPath.item)
-    {
+    if (self.dataSource.count > indexPath.item) {
         XCLabelListModel *model = self.models[indexPath.item];
-        
-        CGFloat width = model.titleWidth + self.contentInsetsX * 2;
-                
+        CGFloat width = model.titleWidth + self.itemInsetsX * 2;
         return CGSizeMake(width, self.rowHeight);
     }
-    
     return CGSizeMake(60, self.rowHeight);
 }
 
@@ -273,12 +259,16 @@ static NSString * const cellIdentifier = @"XCLabelListCell";
     if (self.loadFinished)  return;
     
     self.loadFinished = YES;
-    
     _contentH = layout.contentHeight;
     
-    if (self.didFetchContentHeightBlock)
-    {
-        self.didFetchContentHeightBlock(self, _contentH);
+    // 重置 frame
+    CGRect f = self.frame;
+    f.size.height = _contentH;
+    self.frame = f;
+    [self setNeedsLayout];
+    
+    if (self.didFetchContentHeightCallBack) {
+        self.didFetchContentHeightCallBack(self, _contentH);
     }
 }
 
